@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SamplePolkaDot.iml" filepath="$PROJECT_DIR$/.idea/modules/SamplePolkaDot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.unitTest.iml" />
+    </modules>
+  </component>
+</project>

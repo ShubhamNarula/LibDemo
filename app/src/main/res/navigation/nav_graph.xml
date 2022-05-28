@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.samplepolkadot.fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_showMnemonicsFragment"
+            app:destination="@id/showMnemonicsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/showMnemonicsFragment"
+        android:name="com.example.samplepolkadot.fragments.ShowMnemonicsFragment"
+        android:label="ShowMnemonicsFragment" >
+        <action
+            android:id="@+id/action_showMnemonicsFragment_to_sendFragment2"
+            app:destination="@id/sendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.example.samplepolkadot.fragments.SendFragment"
+        android:label="SendFragment" />
+
+</navigation>

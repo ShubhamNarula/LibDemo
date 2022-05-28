@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SamplePolkaDot</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="import_mnemonics">Import Mnemonics</string>
+    <string name="create_mnemonics">Create Mnemonics</string>
+    <string name="next">Next</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="enter_your_mnemonics">Enter Your Mnemonics</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="to_address">To Address</string>
+    <string name="send">Send</string>
+    <string name="view_in_explorer">View in Explorer</string>
+    <string name="mnemonics">Mnemonics</string>
+    <string name="receiver_address">Enter Receiver Address</string>
+    <string name="transfer">Transfer</string>
+</resources>
