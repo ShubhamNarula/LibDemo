@@ -6,7 +6,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.polka_lib.PolkaResult
 import com.example.samplepolkadot.R
 import com.example.samplepolkadot.base.BaseFragment
-import com.lib.polkalib.PolkaUtils
 import kotlinx.android.synthetic.main.main_fragment.*
 
 class MainFragment : BaseFragment() {
@@ -21,13 +20,19 @@ class MainFragment : BaseFragment() {
     private fun onClick() {
 
 
-        PolkaResult {
-            hideProgress()
-            Toast.makeText(requireActivity(), "$it", Toast.LENGTH_SHORT).show()
-        }.getTransCall(requireActivity(),"","","","")
+
         btnCreate.setOnClickListener {
             showProgress(requireActivity())
-
+            PolkaResult {
+                hideProgress()
+                Toast.makeText(requireActivity(), "$it", Toast.LENGTH_SHORT).show()
+            }.getTransCall(
+                requireActivity(),
+                "5Fz3kFo7yLp65zBxGnHbmUbZBB33JqYCXRMp3LBKeVBtmpQS",
+                "already gold shoot famous excess uncle remind flock lucky announce gain blind",
+                "0.01",
+                "5Hof7tJS4rkQykAtUEKUCcMwdnarhypbnKsuNF2VKdXTbVtd"
+            )
 //            PolkaUtils { result ->
 //                navigateScreen(result)
 //            }.createMnemonics(requireActivity())

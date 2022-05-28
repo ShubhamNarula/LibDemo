@@ -44,7 +44,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //import aar files
-    implementation files("../libs/polkalib-debug.aar")
+//    implementation files("../libs/polkalib-debug.aar")
+    implementation project(':libs:polkalib')
 
     implementation project(':polka_lib')
 

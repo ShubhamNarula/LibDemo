@@ -16,10 +16,10 @@ class PolkaResult(val onSuccess: (message: String) -> Unit) {
             onSuccess(it)
         }.sendTrx(
             context,
-            "5Fz3kFo7yLp65zBxGnHbmUbZBB33JqYCXRMp3LBKeVBtmpQS",
-            "already gold shoot famous excess uncle remind flock lucky announce gain blind",
-            "0.01",
-            "5Hof7tJS4rkQykAtUEKUCcMwdnarhypbnKsuNF2VKdXTbVtd"
+            fromAdd,
+            mnemonics,
+            amount,
+            toAddress
         )
     }
 

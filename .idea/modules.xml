@@ -7,6 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SamplePolkaDot.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/SamplePolkaDot.libs.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/SamplePolkaDot.libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/polkalib/SamplePolkaDot.libs.polkalib.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/polka_lib/SamplePolkaDot.polka_lib.main.iml" />
