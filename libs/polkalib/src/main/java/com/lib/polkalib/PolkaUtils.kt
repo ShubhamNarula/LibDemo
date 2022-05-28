@@ -18,9 +18,6 @@ import org.json.JSONObject
 class PolkaUtils (val onSuccess : (message:String)-> Unit) {
     private lateinit var mycontext: Context
 
-
-
-
     private fun getCustomHeaders(): Map<String, String>? {
         val headers: MutableMap<String, String> = HashMap()
         headers["Access-Control-Allow-Origin"] = "*"
