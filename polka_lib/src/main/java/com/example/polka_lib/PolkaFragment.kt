@@ -5,7 +5,7 @@ import android.widget.Button
 import android.widget.Toast
 import com.example.samplepolkadot.base.BaseFragment
 
-class PolkaFragment(val onSuccess: (message: String) -> Unit) : BaseFragment() {
+class PolkaFragment() : BaseFragment() {
     override fun getLayoutID(): Int {
         return R.layout.polka_frag
     }
@@ -16,7 +16,7 @@ class PolkaFragment(val onSuccess: (message: String) -> Unit) : BaseFragment() {
             Toast.makeText(requireActivity(), "Please wait....", Toast.LENGTH_SHORT).show()
             PolkaResult {
                 Log.e("HashKey", "onCreateView: ${it}", )
-                onSuccess(it)
+                Toast.makeText(requireActivity(), it, Toast.LENGTH_SHORT).show()
             }.getTransCall(
                 requireActivity(),
                 "5Fz3kFo7yLp65zBxGnHbmUbZBB33JqYCXRMp3LBKeVBtmpQS",
