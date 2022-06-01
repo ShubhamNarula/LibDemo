@@ -1,5 +1,6 @@
 package com.example.polka_lib
 
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import com.example.samplepolkadot.base.BaseFragment
@@ -14,7 +15,7 @@ class PolkaFragment : BaseFragment() {
         btnSend.setOnClickListener {
             Toast.makeText(requireActivity(), "Please wait....", Toast.LENGTH_SHORT).show()
             PolkaResult {
-                Toast.makeText(requireActivity(), "$it", Toast.LENGTH_SHORT).show()
+                Log.e("HashKey", "onCreateView: ${it}", )
             }.getTransCall(
                 requireActivity(),
                 "5Fz3kFo7yLp65zBxGnHbmUbZBB33JqYCXRMp3LBKeVBtmpQS",
