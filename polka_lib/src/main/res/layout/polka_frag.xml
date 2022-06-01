@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Transfer"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtYourAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:hint="Address"
+        android:text="5FThCokUgAJSgbNSQJbGMioAB13sRtZZJxZd6f5s64Qp2BQs"
+        android:inputType="text"
+        android:maxLines="1" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtReceiverAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:hint="Reciceve Add"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Amount"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Send" />
+
+</LinearLayout>

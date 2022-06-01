@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_showMnemonicsFragment"
             app:destination="@id/showMnemonicsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_polkaFragment"
+            app:destination="@id/polkaFragment" />
 
     </fragment>
     <fragment
@@ -27,5 +30,9 @@
         android:id="@+id/sendFragment"
         android:name="com.example.samplepolkadot.fragments.SendFragment"
         android:label="SendFragment" />
+    <fragment
+        android:id="@+id/polkaFragment"
+        android:name="com.example.polka_lib.PolkaFragment"
+        android:label="PolkaFragment" />
 
 </navigation>

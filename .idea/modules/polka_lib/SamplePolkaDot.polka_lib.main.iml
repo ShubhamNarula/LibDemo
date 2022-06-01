@@ -60,6 +60,7 @@
     <content url="file://$MODULE_DIR$/../../../polka_lib/src/debug" />
     <content url="file://$MODULE_DIR$/../../../polka_lib/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../polka_lib/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../polka_lib/src/main/res" type="java-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
